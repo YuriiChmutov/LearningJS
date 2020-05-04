@@ -1,4 +1,4 @@
-//"use strict";
+//"use strict"
 
 console.log("hello, world");
 
@@ -18,6 +18,5 @@ console.log(arr[0]);
 
 console.log(typeof(+'4'));
 
-let answer = prompt("are you here?");
-console.log(answer);
+
 
