@@ -1,4 +1,4 @@
-import {INC, DEC, ASYNC_INC} from './types';
+import {INC, DEC, CHANGE_THEME} from './types';
 
 export function increment(){
     return{
@@ -12,8 +12,15 @@ export function decrement(){
     }
 }
 
-export function asyncInc(){
-    return{
-        type: ASYNC_INC
+export function changeTheme(newTheme){
+    return {
+        type: CHANGE_THEME,
+        payload: newTheme
     }
 }
+
+// export function asyncInc(){
+//     return{
+//         type: ASYNC_INC
+//     }
+// }
