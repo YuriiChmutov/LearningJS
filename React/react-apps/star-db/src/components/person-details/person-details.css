@@ -1,0 +1,19 @@
+.person-image{
+	width: 150px;
+	min-height: 180px;
+	border-top: 1px;
+	background-color: white;
+	margin: 1rem;
+	border-radius: 7px;
+
+}
+
+.person-details {
+	display: flex;
+	flex-direction: row;
+}
+
+.person-details .term {
+	margin-right: 10px;
+}
+

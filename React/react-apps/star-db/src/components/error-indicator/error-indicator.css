@@ -1,0 +1,14 @@
+.error-indicator {
+	color: orange;
+	display: flex;
+	flex-direction: column;
+	font-size: larger;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.error-indicator img{
+	width: 80px;
+	height: 80px;
+	margin-left: 35%;
+}

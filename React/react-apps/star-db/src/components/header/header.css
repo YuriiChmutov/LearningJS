@@ -1,0 +1,17 @@
+.header {
+	margin-top: .5rem;
+	padding-left:  100px;
+	
+}
+
+.header ul li{ 
+	cursor: pointer;
+	list-style: none;
+	margin: 0;
+	padding: .5rem 1rem;
+	border-radius: 3px;
+}
+
+.header ul li:hover {
+	background-color: #444;
+}
